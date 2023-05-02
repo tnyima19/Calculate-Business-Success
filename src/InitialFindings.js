@@ -2,10 +2,32 @@ import React from "react";
 import age_business from './SampleAverageDuration.png';
 import success_types from './Successful_business_types.png';
 import unsuccess_types from './unsuccessful_types.png';
+import success_unsucess_map from './Success_unsuccess.png'
 
 function InitialFindings(){
     return(
         <div class="container-fluid border">
+            
+            <div class="row">
+                <div class="col">
+                <img src={success_unsucess_map} alt="business map"></img>
+                </div>
+                <div class="col">
+                <h2>Initial Discoveries</h2>
+                When I first looked at this map I discovered that there were higher number of Successful business
+                in manhattan compared to Queens, Brooklyn, Staten Island and Bronx. I also saw that teh density of 
+                successful and unsuccesful business ws higher around the train stations. Either all business wanted
+                to be accessible from the station or only those business who were accessible become successful. I 
+                also discovered that the highest density of the bisiness were aroud midtown, east village. So I checked
+                if distance from times square had some relation to the success of a business. There was a good relation
+                between times square and the business. The further you go from times square the lesser the number of 
+                successful businesses. I chose times square because its very close to port authority, its also couple 
+                blocks from Grand Central. It has access to almost all trains that go everywhere in NYC.
+                </div>
+
+            </div>
+
+
         <div class="row gx-1 gy-5" >
             <div class="col">
                 <div class="card">
