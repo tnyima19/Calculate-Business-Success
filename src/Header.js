@@ -3,7 +3,7 @@ import NavBar from "./NavBar"
 function Header(){
     return(<div>
         <NavBar></NavBar>
-        <h1 class="text-center">Calculate Success of a Business</h1>
+        <h1 class="text-center">Calculate Success of Small Business</h1>
     </div>)
 }
 
